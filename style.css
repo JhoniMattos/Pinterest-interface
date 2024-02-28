@@ -20,18 +20,39 @@ body {
     gap: 24px;
   }
 
-  nav, main {
+  nav,
+  main {
     padding: 12px;
   }
-main {
-columns: 2;
-}
-
-img {
-  width: 100%;
-border-radius: 12%;
-margin-bottom: 20px;
-}
-
+  main {
+    columns: 2;
   }
+
+  img {
+    width: 100%;
+    border-radius: 12%;
+    margin-bottom: 20px;
+  }
+
+  ion-icon {
+    color: white;
+    font-size: 24px;
+  }
+
+  footer {
+    width: 100%;
+    position: fixed;
+    bottom: 16px;
+
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
+
+footer img {
+width: 24px;
+height: 24px;
+object-fit: cover;
+border-radius: 50%;
+}
 
