@@ -23,7 +23,15 @@ body {
   nav, main {
     padding: 12px;
   }
+main {
+columns: 2;
+}
 
+img {
+  width: 100%;
+border-radius: 12%;
+margin-bottom: 20px;
+}
 
   }
 
